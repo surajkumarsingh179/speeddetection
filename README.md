@@ -108,8 +108,8 @@ It is designed as a **low-cost, educational project** suitable for college labs 
 
 ## 👤 team
 
-**Suraj Kumar Singh** 
-**Pushkar Singh**
+**Suraj Kumar Singh**,
+**Pushkar Singh**,
 **Ashvary Sugam**
 B.Tech Computer Science (AI & ML)  
 GLA University  
