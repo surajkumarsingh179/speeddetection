@@ -96,6 +96,10 @@ It is designed as a **low-cost, educational project** suitable for college labs 
 - Sensor interfacing practice
 
 ---
+## 📸 Project Image
+
+![Speed Detection Project](images/project.jpg)
+
 
 ## 📌 Future Improvements
 
