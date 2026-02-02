@@ -97,8 +97,10 @@ It is designed as a **low-cost, educational project** suitable for college labs 
 
 ---
 ## 📸 Project Image
+<p align="center">
+  <img src="images/project.jpg" width="500">
+</p>
 
-![Speed Detection Project](images/project.jpg)
 
 
 ## 📌 Future Improvements
