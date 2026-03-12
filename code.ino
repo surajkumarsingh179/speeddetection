@@ -2,7 +2,7 @@
 #include <LiquidCrystal_I2C.h>
 
 // ---------------- LCD ----------------
-LiquidCrystal_I2C lcd(0x27, 16, 2);   // change to 0x3F if needed
+LiquidCrystal_I2C lcd(0x27, 16, 2);   
 
 // ------------- IR Sensors -------------
 #define SENSOR_1_PIN 2   // INT0
@@ -19,7 +19,7 @@ const float distance = 0.10;   // 10 cm
 float speed_mps = 0;
 float speed_kmph = 0;
 
-// ---------- Interrupts ----------
+
 void sensor1ISR() {
   if (!sensor1Hit) {
     time1 = micros();
@@ -83,3 +83,4 @@ void loop() {
     delay(1500);
   }
 }
+
