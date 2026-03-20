@@ -1,10 +1,10 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-// ---------------- LCD ----------------
+
 LiquidCrystal_I2C lcd(0x27, 16, 2);  
 
-// ------------- IR Sensors -------------
+
 #define SENSOR_1_PIN 2   // INT0
 #define SENSOR_2_PIN 3   // INT1
 
