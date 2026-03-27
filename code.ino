@@ -13,13 +13,13 @@ volatile unsigned long time2 = 0;
 volatile bool sensor1Hit = false;
 volatile bool sensor2Hit = false;
 
-// Distance between sensors (meters)
+
 const float distance = 0.10;   // 10 cm
 
 float speed_mps = 0;
 float speed_kmph = 0;
 
-// ---------- Interrupts ----------
+
 void sensor1ISR() {
   if (!sensor1Hit) {
     time1 = micros();
@@ -35,7 +35,7 @@ void sensor2ISR() {
 }
 
 void setup() {
-  // LCD init
+
   lcd.init();
   lcd.backlight();
   lcd.setCursor(0, 0);
@@ -55,7 +55,7 @@ void setup() {
 void loop() {
   if (sensor1Hit && sensor2Hit) {
 
-    unsigned long timeDiff = time2 - time1; // microseconds
+    unsigned long timeDiff = time2 - time1; 
 
     lcd.clear();
 
@@ -74,7 +74,7 @@ void loop() {
       lcd.print("Invalid Read");
     }
 
-    // Reset for next object
+    
     sensor1Hit = false;
     sensor2Hit = false;
     time1 = 0;
